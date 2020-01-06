@@ -1,8 +1,16 @@
 <template>
-  <div id="app">
+ <div id="app">
+    <!-- 一级路由容器 -->
+    <router-view></router-view>
   </div>
 </template>
 
-<style scoped>
+<script>
+export default {
+  name: 'app'
+}
+</script>
+
+<style>
 
 </style>
