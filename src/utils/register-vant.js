@@ -1,4 +1,16 @@
 import Vue from 'vue'
-import { Button } from 'vant'
+// 加载vant组件
+import {
+  NavBar,
+  Cell,
+  CellGroup,
+  Field,
+  Button
+} from 'vant'
 
-Vue.use(Button)
+// 注册vant组件
+Vue.use(NavBar)
+  .use(Cell)
+  .use(CellGroup)
+  .use(Field)
+  .use(Button)
